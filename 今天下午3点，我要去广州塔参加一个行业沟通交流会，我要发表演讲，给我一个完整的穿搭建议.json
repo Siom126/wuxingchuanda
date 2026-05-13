@@ -1,0 +1,240 @@
+{
+  "normalized_input": {
+    "question_type": "",
+    "question_goal": "今天下午3点，我要去广州塔参加一个行业沟通交流会，我要发表演讲，给我一个完整的穿搭建议",
+    "calendar_type": "solar",
+    "ruleset": "mainline-cn-v1",
+    "timezone": "Asia/Shanghai",
+    "country": "中国",
+    "city": "广州",
+    "used_now": false,
+    "original_time_input": "2026 年 5 月 12 日 15:00"
+  },
+  "calendar": {
+    "solar": {
+      "ymd_hms": "2026-05-12 15:00:00",
+      "timezone": "Asia/Shanghai"
+    },
+    "lunar": {
+      "year": 2026,
+      "month": 3,
+      "day": 26,
+      "month_text": "三",
+      "day_text": "廿六",
+      "is_leap_month": false
+    },
+    "jieqi": {
+      "active_jie": "立夏",
+      "active_jie_started_at": "2026-05-05 19:48:44",
+      "next_jie": "芒种",
+      "next_jie_at": "2026-06-05 23:48:21"
+    }
+  },
+  "ganzhi": {
+    "year": "丙午",
+    "month": "癸巳",
+    "day": "丙戌",
+    "time": "丙申",
+    "day_xun_exact": "甲申",
+    "day_xunkong_exact": "午未",
+    "time_xun": "甲午",
+    "time_xunkong": "辰巳"
+  },
+  "ruleset": {
+    "id": "mainline-cn-v1",
+    "name": "时家转盘奇门（大陆默认）",
+    "timezone_default": "Asia/Shanghai",
+    "dun_type_rule": "冬至到芒种用阳遁，夏至到大雪用阴遁，按当前节令判定。",
+    "yuan_rule": "按日干支符头（甲或己日）地支确定三元：子午卯酉为上元，寅申巳亥为中元，辰戌丑未为下元。",
+    "ju_rule": "按当前节令和三元，从固定定局表取局数。",
+    "center_hosting_rule": "中宫相关判断一律寄坤处理。",
+    "zhifu_rule": "值符随时干：旬首所在宫原始九星为值符，带旬首天干落时干宫。",
+    "zhishi_rule": "值使随时支：从旬首宫开始数到时支宫，阳顺阴逆，该宫落值使门。",
+    "god_rule": "八神值符与天盘值符星同宫，阳遁顺时针、阴遁逆时针排布。",
+    "horse_star_rule": "申子辰马在寅，亥卯未马在巳，寅午戌马在申，巳酉丑马在亥。",
+    "hidden_stem_rule": "暗干以时干为基准，阳顺阴逆布于九宫。"
+  },
+  "chart": {
+    "dun_type": "阳遁",
+    "yuan": "中元",
+    "ju_number": 1,
+    "xunshou": "甲午",
+    "hidden_yi": "辛",
+    "kongwang": [
+      "辰",
+      "巳"
+    ],
+    "kongwang_palaces": [
+      4
+    ],
+    "time_stem_visible": "丙",
+    "zhifu": {
+      "star": "天辅星",
+      "palace": 8
+    },
+    "zhishi": {
+      "door": "杜门",
+      "palace": 8
+    },
+    "horse_star": "寅",
+    "horse_star_palace": 8,
+    "grid_order": [
+      4,
+      9,
+      2,
+      3,
+      5,
+      7,
+      8,
+      1,
+      6
+    ],
+    "palaces": [
+      {
+        "palace": 1,
+        "name": "坎宫",
+        "direction": "北",
+        "trigram": "坎",
+        "element": "水",
+        "earth_stem": "戊",
+        "sky_stem": "庚",
+        "star": "天冲",
+        "door": "惊门",
+        "god": "九天",
+        "hidden_stem": "丙",
+        "is_center": false,
+        "hosts_center": false,
+        "hosting_note": null
+      },
+      {
+        "palace": 2,
+        "name": "坤宫",
+        "direction": "西南",
+        "trigram": "坤",
+        "element": "土",
+        "earth_stem": "己",
+        "sky_stem": "癸",
+        "star": "天心",
+        "door": "杜门",
+        "god": "白虎",
+        "hidden_stem": "辛",
+        "is_center": false,
+        "hosts_center": true,
+        "hosting_note": "中宫寄坤"
+      },
+      {
+        "palace": 3,
+        "name": "震宫",
+        "direction": "东",
+        "trigram": "震",
+        "element": "木",
+        "earth_stem": "庚",
+        "sky_stem": "乙",
+        "star": "天英",
+        "door": "休门",
+        "god": "螣蛇",
+        "hidden_stem": "戊",
+        "is_center": false,
+        "hosts_center": false,
+        "hosting_note": null
+      },
+      {
+        "palace": 4,
+        "name": "巽宫",
+        "direction": "东南",
+        "trigram": "巽",
+        "element": "木",
+        "earth_stem": "辛",
+        "sky_stem": "己",
+        "star": "天芮",
+        "door": "生门",
+        "god": "太阴",
+        "hidden_stem": "己",
+        "is_center": false,
+        "hosts_center": false,
+        "hosting_note": null
+      },
+      {
+        "palace": 5,
+        "name": "中宫",
+        "direction": "中",
+        "trigram": "中",
+        "element": "土",
+        "earth_stem": "壬",
+        "sky_stem": null,
+        "star": null,
+        "door": null,
+        "god": null,
+        "hidden_stem": null,
+        "is_center": true,
+        "hosts_center": false,
+        "hosting_note": "中宫寄坤"
+      },
+      {
+        "palace": 6,
+        "name": "乾宫",
+        "direction": "西北",
+        "trigram": "乾",
+        "element": "金",
+        "earth_stem": "癸",
+        "sky_stem": "丙",
+        "star": "天任",
+        "door": "死门",
+        "god": "九地",
+        "hidden_stem": "癸",
+        "is_center": false,
+        "hosts_center": false,
+        "hosting_note": null
+      },
+      {
+        "palace": 7,
+        "name": "兑宫",
+        "direction": "西",
+        "trigram": "兑",
+        "element": "金",
+        "earth_stem": "丁",
+        "sky_stem": "戊",
+        "star": "天蓬",
+        "door": "景门",
+        "god": "玄武",
+        "hidden_stem": "壬",
+        "is_center": false,
+        "hosts_center": false,
+        "hosting_note": null
+      },
+      {
+        "palace": 8,
+        "name": "艮宫",
+        "direction": "东北",
+        "trigram": "艮",
+        "element": "土",
+        "earth_stem": "丙",
+        "sky_stem": "辛",
+        "star": "天辅",
+        "door": "开门",
+        "god": "值符",
+        "hidden_stem": "丁",
+        "is_center": false,
+        "hosts_center": false,
+        "hosting_note": null
+      },
+      {
+        "palace": 9,
+        "name": "离宫",
+        "direction": "南",
+        "trigram": "离",
+        "element": "火",
+        "earth_stem": "乙",
+        "sky_stem": "丁",
+        "star": "天柱",
+        "door": "伤门",
+        "god": "六合",
+        "hidden_stem": "庚",
+        "is_center": false,
+        "hosts_center": false,
+        "hosting_note": null
+      }
+    ]
+  },
+  "warnings": []
+}
